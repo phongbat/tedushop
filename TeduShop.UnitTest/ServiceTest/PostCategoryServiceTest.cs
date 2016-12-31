@@ -41,7 +41,7 @@ namespace TeduShop.UnitTest.ServiceTest
 
             //compare
             Assert.IsNotNull(result);
-            Assert.AreEqual(7, result.Count);
+            Assert.AreEqual(3, result.Count);
         }
 
         [TestMethod]
